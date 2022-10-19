@@ -1,0 +1,66 @@
+header {background:#D3D3D3;}
+nav li {display: inline;
+  margin: 0 0 0 15px;}
+nav a { text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  
+  .produtos
+      width: 940px;
+      margin: 0 auto:
+      padding: 50px 0;
+}
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  widht: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+.produtos h2
+  font-size: 30px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;}
+}
+.produto-descricao {
+  font-size: 18px;
+}
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+nav a:hover  {
+   color: #DCDCDC;
+   text-decoration: underline:}
+.produtos li:hover {
+   border-color: #DCDCDC;}
+.produtos li:active {
+   border color: #ADD8E6;}
+.produtos li:hover h2 {
+   font-size: 34px;}
+main{ width:940px; margin:0 auto;}
+form{ margin:40px 0;}
+form label{ display:block; font-size:20px;
+margin: 0 0 10px;}
+form input{ display:block; margin: 0 0 20px; 
+padding:10px 25px; width:50%;}
+.enviar{
+  widht:40%;
+  padding:15px 0;
+  background:purple;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  border:none;
+  border-radius:5px;
+  transition:1s all;
+  cursor:pointer;}
+.enviar:hover{
+  background:darkblue;
+  transform:scale(1.2);}
